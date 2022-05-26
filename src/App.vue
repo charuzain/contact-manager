@@ -1,9 +1,8 @@
 <template>
-<h2> App Component </h2>
+  <h2>Hello</h2>
 </template>
 
 <script>
-
 export default {
   name: 'App',
 };
