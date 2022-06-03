@@ -2,7 +2,7 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-6">
-        <div class="card">
+        <div class="card shadow-lg">
           <div class="card-body">
             <div class="row align-items-center">
               <div class="col-sm-4">
@@ -19,7 +19,7 @@
                   <li class="list-group-item">Contact No: </li>
                 </ul>
               </div>
-              <div class="col-sm-1">
+              <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center">
                 <router-link to="/contacts/edit/:Id" class="btn btn-primary my-1">
                 <i class="bi bi-pen-fill"></i>
                 </router-link>
